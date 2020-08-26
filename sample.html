@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            My first Page
+        </title>
+        <meta name="description" content="Page Gescription Here" />
+        <meta http-equiv="Content-Type" content="text/html"; charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <style type="text/css">
+        body{
+            color: red;
+        }
+        </style>
+<!-- script for captalising user input -->
+        <script>
+            function myFunction(){
+                var x = document.getElementById("fname");
+                x.value = x.value.toUpperCase();
+            }
+        </script>
+    </head>
+
+    <body>
+        <p>This is a sample HTML document.</p>
+        Thid JS will capitalise my name:
+       <p>Enter Your Name: <input type="text" id="fname" onchange="myFunction()"></p>
+    </body>
+</html>
